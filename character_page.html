@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <title></title>
+  </head>
+  <body>
+    <div id="result_modal">
+      <!-- up part -->
+      <div id="header_modal">
+        <a href="index.html" id="to_main_page"
+          ><ion-icon name="chevron-back-outline"></ion-icon> back</a
+        >
+
+        <div id="header_modal_main">
+          <div>
+            <img src="" alt="" id="character_image" />
+          </div>
+          <p class="character_modal_name"></p>
+        </div>
+      </div>
+      <!-- main part -->
+      <div id="#main_modal" class="main_modal">
+        <strong class="info_title">Character info</strong>
+        <div id="grid_modal">
+          <div>
+            <p>Species</p>
+            <p class="character_modal_species"></p>
+          </div>
+          <div>
+            <p>Origin</p>
+            <p class="character_modal_origin"></p>
+          </div>
+          <div>
+            <p>Location</p>
+            <p class="character_modal_location"></p>
+          </div>
+          <div>
+            <p>Status</p>
+            <p class="character_modal_status"></p>
+          </div>
+          <div>
+            <p>Gender</p>
+            <p class="character_modal_gender"></p>
+          </div>
+        </div>
+        <div>
+          <p id="episodes_title">Episodes</p>
+          <ol id="episodes_list"></ol>
+        </div>
+      </div>
+    </div>
+    <script src="assets/scripts/character.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
