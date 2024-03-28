@@ -106,7 +106,7 @@ results_container.addEventListener("scroll", pagination);
 
 function pagination() {
   if (
-    results_container.clientHeight + results_container.scrollTop >=
+    results_container.clientHeight + results_container.scrollTop * 1.1 >=
     results_container.scrollHeight
   ) {
     if (current_page < localStorage.getItem("max_page")) {
